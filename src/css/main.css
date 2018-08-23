@@ -1,0 +1,23 @@
+div.cell {
+    -webkit-user-modify: read-write-plaintext-only;
+    display: inline-block;
+    border-top: 1px solid #c4c4c4;
+    border-left: 1px solid #c4c4c4;
+    width: 80px;
+    overflow: hidden;
+
+    margin: -3px;
+}
+
+div.first_caption {
+    -webkit-user-modify: read-only;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+div.caption {
+    -webkit-user-modify: read-only;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+
